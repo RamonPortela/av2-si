@@ -1,0 +1,13 @@
+verao	, masculino	, tronco	, casual	, 30
+verao	, feminino	, perna 	, casual	, 87
+verao	, feminino	, acessorio	, social	, 60
+verao	, masculino	, pes		, casual	, 86
+verao	, masculino	, acessorio	, social	, 97
+verao	, feminino	, tronco	, social	, 95
+verao	, masculino	, perna		, casual	, 55
+inverno	, feminino	, pes		, social	, 51
+inverno	, feminino	, tronco	, casual	, 62
+inverno	, masculino	, tronco	, social	, 80
+inverno	, masculino	, acessorio	, casual	, 83
+inverno	, feminino	, perna		, casual	, 73
+inverno	, feminino	, acessorio	, social	, 32
