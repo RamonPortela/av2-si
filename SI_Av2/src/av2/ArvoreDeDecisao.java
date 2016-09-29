@@ -33,39 +33,39 @@ public class ArvoreDeDecisao {
 				preco = Integer.parseInt(informacao[4].trim());
 				
 				if(estacaoDoAno.equals("verao")){
-					if(sexo.equals("masulino")){
+					if(sexo.equals("masculino")){
 						if(parteDoCorpo.equals("tronco")){
 							if(estilo.equals("casual")){
-								//verão-masculino-tronco-casual
+								System.out.println("Regata, Blusa e Camisa");//verão-masculino-tronco-casual
 							}
 							else{
-								//verão-masculino-tronco-social
+								System.out.println("Blusa social e Blazer");//verão-masculino-tronco-social
 							}
 						}
 						else{
 							if(parteDoCorpo.equals("perna")){
 								if(estilo.equals("casual")){
-									//verão-masculino-perna-casual
+									System.out.println("Bermuda e short");//verão-masculino-perna-casual
 								}
 								else{
-									//verão-masculino-perna-social
+									System.out.println("Calça social e Calça Jeans Black");//verão-masculino-perna-social
 								}
 							}
 							else{
 								if(parteDoCorpo.equals("pes")){
 									if(estilo.equals("casual")){
-										//verão-masculino-pes-casual
+										System.out.println("Tênis, chinelo e percata.");//verão-masculino-pes-casual
 									}
 									else{
-										//verão-masculino-pes-social
+										System.out.println("Sapato social e sapatênis.");//verão-masculino-pes-social
 									}
 								}
 								else{
 									if(estilo.equals("casual")){
-										//verão-masculino-acessorio-casual
+										System.out.println("Boné, cordão e óculos escuro.");//verão-masculino-acessorio-casual
 									}
 									else{
-										//verão-masculino-acessorio-social
+										System.out.println("Gravata, relógio, cinto e suspensório.");//verão-masculino-acessorio-social
 									}
 								}
 							}
@@ -74,36 +74,36 @@ public class ArvoreDeDecisao {
 					else{
 						if(parteDoCorpo.equals("tronco")){
 							if(estilo.equals("casual")){
-								//verão-feminino-tronco-casual
+								System.out.println("Jardineira, vestido curto, blusa, camisa, regata, e etc..");//verão-feminino-tronco-casual
 							}
 							else{
-								//verão-feminino-tronco-social
+								System.out.println("Blusa social, vestido longo e blazer");//verão-feminino-tronco-social
 							}
 						}
 						else{
 							if(parteDoCorpo.equals("perna")){
 								if(estilo.equals("casual")){
-									//verão-feminino-perna-casual
+									System.out.println("Short, saia, bermuda, sarouel, e etc..");//verão-feminino-perna-casual
 								}
 								else{
-									//verão-feminino-perna-social
+									System.out.println("Calça social, saia longa, tubinho, e etc..");//verão-feminino-perna-social
 								}
 							}
 							else{
 								if(parteDoCorpo.equals("pes")){
 									if(estilo.equals("casual")){
-										//verão-feminino-pes-casual
+										System.out.println("Chinelo, sandália, sapatilha, aspargatas, rasteirinha, e etc..");//verão-feminino-pes-casual
 									}
 									else{
-										//verão-feminino-pes-social
+										System.out.println("Salto e crocs.");//verão-feminino-pes-social
 									}
 								}
 								else{
 									if(estilo.equals("casual")){
-										//verão-feminino-acessorio-casual
+										System.out.println("Brinco, cordão, relógio, pulseira, cinta e etc");//verão-feminino-acessorio-casual
 									}
 									else{
-										//verão-feminino-acessorio-social
+										System.out.println("Brinco, bolsa, cordão, relógio, pulseira, cinta e etc");//verão-feminino-acessorio-social
 									}
 								}
 							}
@@ -111,39 +111,39 @@ public class ArvoreDeDecisao {
 					}
 				}
 				else{
-					if(sexo.equals("masulino")){
+					if(sexo.equals("masculino")){
 						if(parteDoCorpo.equals("tronco")){
 							if(estilo.equals("casual")){
-								//verão-masculino-tronco-casual
+								System.out.println("Casaco, camisa moletom e camisa de manga longa.");//inverno-masculino-tronco-casual
 							}
 							else{
-								//verão-masculino-tronco-social
+								System.out.println("Terno e sobretudo");//inverno-masculino-tronco-social
 							}
 						}
 						else{
 							if(parteDoCorpo.equals("perna")){
 								if(estilo.equals("casual")){
-									//verão-masculino-perna-casual
+									System.out.println("Calça moletom e calça jeans.");//inverno-masculino-perna-casual
 								}
 								else{
-									//verão-masculino-perna-social
+									System.out.println("Calça social.");//inverno-masculino-perna-social
 								}
 							}
 							else{
 								if(parteDoCorpo.equals("pes")){
 									if(estilo.equals("casual")){
-										//verão-masculino-pes-casual
+										System.out.println("Tênis, bota.");//inverno-masculino-pes-casual
 									}
 									else{
-										//verão-masculino-pes-social
+										System.out.println("Sapato.");//inverno-masculino-pes-social
 									}
 								}
 								else{
 									if(estilo.equals("casual")){
-										//verão-masculino-acessorio-casual
+										System.out.println("Luva, gorro.");//inverno-masculino-acessorio-casual
 									}
 									else{
-										//verão-masculino-acessorio-social
+										System.out.println("Relógio.");//inverno-masculino-acessorio-social
 									}
 								}
 							}
