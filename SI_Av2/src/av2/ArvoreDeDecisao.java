@@ -152,36 +152,36 @@ public class ArvoreDeDecisao {
 					else{
 						if(parteDoCorpo.equals("tronco")){
 							if(estilo.equals("casual")){
-								//inverno-feminino-tronco-casual
+								System.out.println("Casaco, casaco de lã, jaqueta");//inverno-feminino-tronco-casual
 							}
 							else{
-								//inverno-feminino-tronco-social
+								System.out.println("Casaco, sobre-tudo");//inverno-feminino-tronco-social
 							}
 						}
 						else{
 							if(parteDoCorpo.equals("perna")){
 								if(estilo.equals("casual")){
-									//inverno-feminino-perna-casual
+									System.out.println("Calça moletom, calça jeans");//inverno-feminino-perna-casual
 								}
 								else{
-									//inverno-feminino-perna-social
+									System.out.println("Calça jeans, calça social");//inverno-feminino-perna-social
 								}
 							}
 							else{
 								if(parteDoCorpo.equals("pes")){
 									if(estilo.equals("casual")){
-										//inverno-feminino-pes-casual
+										System.out.println("Tenis, botas");//inverno-feminino-pes-casual
 									}
 									else{
-										//inverno-feminino-pes-social
+										System.out.println("Botas e cano alto, saltos");//inverno-feminino-pes-social
 									}
 								}
 								else{
 									if(estilo.equals("casual")){
-										//inverno-feminino-acessorio-casual
+										System.out.println("Touca, colar, luva, anel");//inverno-feminino-acessorio-casual
 									}
 									else{
-										//inverno-feminino-acessorio-social
+										System.out.println("Touca (alguns tipos), colar, luva, relógio, anel");//inverno-feminino-acessorio-social
 									}
 								}
 							}
